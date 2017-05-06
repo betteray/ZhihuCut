@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B47D1911EBE4BB700848FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B47D1901EBE4BB700848FE8 /* Foundation.framework */; };
+		0B47D1931EBE4BB700848FE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B47D1921EBE4BB700848FE8 /* UIKit.framework */; };
+		0B47D19F1EBE4BB700848FE8 /* ZhihuCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B47D19E1EBE4BB700848FE8 /* ZhihuCut.m */; };
+		0B47D1AA1EBE4BE200848FE8 /* ShortMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B47D1A81EBE4BE200848FE8 /* ShortMgr.h */; };
+		0B47D1AB1EBE4BE200848FE8 /* ShortMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B47D1A91EBE4BE200848FE8 /* ShortMgr.m */; };
+		0B47D1AD1EBE4C7700848FE8 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B47D1AC1EBE4C7700848FE8 /* CaptainHook.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B47D18D1EBE4BB700848FE8 /* libZhihuCut.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libZhihuCut.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B47D1901EBE4BB700848FE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B47D1921EBE4BB700848FE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B47D1971EBE4BB700848FE8 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		0B47D1981EBE4BB700848FE8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		0B47D19A1EBE4BB700848FE8 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		0B47D19B1EBE4BB700848FE8 /* ZhihuCut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhihuCut-Prefix.pch"; sourceTree = "<group>"; };
+		0B47D19E1EBE4BB700848FE8 /* ZhihuCut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhihuCut.m; sourceTree = "<group>"; };
+		0B47D1A21EBE4BB700848FE8 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/lib/0xdeadfa11; sourceTree = "<group>"; };
+		0B47D1A81EBE4BE200848FE8 /* ShortMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortMgr.h; sourceTree = "<group>"; };
+		0B47D1A91EBE4BE200848FE8 /* ShortMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortMgr.m; sourceTree = "<group>"; };
+		0B47D1AC1EBE4C7700848FE8 /* CaptainHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B47D1891EBE4BB700848FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B47D1911EBE4BB700848FE8 /* Foundation.framework in Frameworks */,
+				0B47D1931EBE4BB700848FE8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B47D1831EBE4BB700848FE8 = {
+			isa = PBXGroup;
+			children = (
+				0B47D1941EBE4BB700848FE8 /* ZhihuCut */,
+				0B47D18F1EBE4BB700848FE8 /* Frameworks */,
+				0B47D18E1EBE4BB700848FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B47D18E1EBE4BB700848FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D18D1EBE4BB700848FE8 /* libZhihuCut.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B47D18F1EBE4BB700848FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1901EBE4BB700848FE8 /* Foundation.framework */,
+				0B47D1921EBE4BB700848FE8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B47D1941EBE4BB700848FE8 /* ZhihuCut */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1AC1EBE4C7700848FE8 /* CaptainHook.h */,
+				0B47D19E1EBE4BB700848FE8 /* ZhihuCut.m */,
+				0B47D1A81EBE4BE200848FE8 /* ShortMgr.h */,
+				0B47D1A91EBE4BE200848FE8 /* ShortMgr.m */,
+				0B47D1951EBE4BB700848FE8 /* Package */,
+				0B47D1991EBE4BB700848FE8 /* Supporting Files */,
+			);
+			path = ZhihuCut;
+			sourceTree = "<group>";
+		};
+		0B47D1951EBE4BB700848FE8 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1961EBE4BB700848FE8 /* DEBIAN */,
+				0B47D1A01EBE4BB700848FE8 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		0B47D1961EBE4BB700848FE8 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1971EBE4BB700848FE8 /* control.txt */,
+				0B47D1981EBE4BB700848FE8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		0B47D1991EBE4BB700848FE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D19A1EBE4BB700848FE8 /* PackageVersion.plist */,
+				0B47D19B1EBE4BB700848FE8 /* ZhihuCut-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B47D1A01EBE4BB700848FE8 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1A11EBE4BB700848FE8 /* lib */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		0B47D1A11EBE4BB700848FE8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0B47D1A21EBE4BB700848FE8 /* 0xdeadfa11 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B47D18A1EBE4BB700848FE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B47D1AD1EBE4C7700848FE8 /* CaptainHook.h in Headers */,
+				0B47D1AA1EBE4BE200848FE8 /* ShortMgr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B47D18C1EBE4BB700848FE8 /* ZhihuCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B47D1A51EBE4BB700848FE8 /* Build configuration list for PBXNativeTarget "ZhihuCut" */;
+			buildPhases = (
+				0B47D1881EBE4BB700848FE8 /* Sources */,
+				0B47D1891EBE4BB700848FE8 /* Frameworks */,
+				0B47D18A1EBE4BB700848FE8 /* Headers */,
+				0B47D18B1EBE4BB700848FE8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhihuCut;
+			productName = ZhihuCut;
+			productReference = 0B47D18D1EBE4BB700848FE8 /* libZhihuCut.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B47D1841EBE4BB700848FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					0B47D18C1EBE4BB700848FE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B47D1871EBE4BB700848FE8 /* Build configuration list for PBXProject "ZhihuCut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B47D1831EBE4BB700848FE8;
+			productRefGroup = 0B47D18E1EBE4BB700848FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B47D18C1EBE4BB700848FE8 /* ZhihuCut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B47D18B1EBE4BB700848FE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B47D1881EBE4BB700848FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B47D19F1EBE4BB700848FE8 /* ZhihuCut.m in Sources */,
+				0B47D1AB1EBE4BE200848FE8 /* ShortMgr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B47D1A31EBE4BB700848FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		0B47D1A41EBE4BB700848FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		0B47D1A61EBE4BB700848FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZhihuCut/ZhihuCut-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		0B47D1A71EBE4BB700848FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZhihuCut/ZhihuCut-Prefix.pch";
+				INSTALL_PATH = /usr/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B47D1871EBE4BB700848FE8 /* Build configuration list for PBXProject "ZhihuCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B47D1A31EBE4BB700848FE8 /* Debug */,
+				0B47D1A41EBE4BB700848FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B47D1A51EBE4BB700848FE8 /* Build configuration list for PBXNativeTarget "ZhihuCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B47D1A61EBE4BB700848FE8 /* Debug */,
+				0B47D1A71EBE4BB700848FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B47D1841EBE4BB700848FE8 /* Project object */;
+}
